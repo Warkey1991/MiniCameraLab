@@ -1,6 +1,6 @@
 # Mini Camera Lab
 
-[简体中文](#简体中文) · [English](#english)
+[简体中文](#简体中文) · [English](#english) · [MIT License](LICENSE)
 
 ## 简体中文
 
@@ -210,6 +210,8 @@ MiniCameraLab/
 ├── run_macos_linux.sh              # macOS / Linux 启动脚本
 ├── run_windows.bat                 # Windows 启动脚本
 ├── README.md
+├── LICENSE                          # MIT 开源协议
+├── CONTRIBUTING.md                  # 贡献指南
 ├── camera_lab/
 │   ├── __init__.py                 # 对外导出 CameraProfile / process_image
 │   ├── imaging.py                  # 成像、传感器、Bayer、ISP 基础函数
@@ -224,6 +226,12 @@ MiniCameraLab/
 └── tests/
     └── test_pipeline.py            # Pipeline 单元测试
 ```
+
+### 开源协议与贡献
+
+本项目采用 [MIT License](LICENSE)。你可以自由下载、运行、复制、修改、发布和用于商业项目，只需在发布的软件中保留原有的版权声明和许可证文本。协议不提供任何形式的质量或适用性担保，完整条款请查看 `LICENSE`。
+
+欢迎通过 Issue、Fork 和 Pull Request 参与项目：可以修复 Bug、补充测试、完善文档，或贡献新的镜头、传感器和 ISP 模型。提交代码前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ### 在 Physical Toy Camera 项目中的定位
 
@@ -464,6 +472,8 @@ MiniCameraLab/
 ├── run_macos_linux.sh              # macOS / Linux launcher
 ├── run_windows.bat                 # Windows launcher
 ├── README.md
+├── LICENSE                          # MIT license
+├── CONTRIBUTING.md                  # Contribution guide
 ├── camera_lab/
 │   ├── __init__.py                 # Public CameraProfile / process_image exports
 │   ├── imaging.py                  # Imaging, sensor, Bayer, and ISP primitives
@@ -478,6 +488,12 @@ MiniCameraLab/
 └── tests/
     └── test_pipeline.py            # Pipeline unit tests
 ```
+
+### Open Source License and Contributions
+
+This project is released under the [MIT License](LICENSE). You may download, use, copy, modify, publish, distribute, and use it in commercial projects, provided that the original copyright and license notice are retained. The license provides the software without warranty; see `LICENSE` for the complete terms.
+
+Contributions are welcome through Issues, Forks, and Pull Requests. Bug fixes, tests, documentation improvements, and new lens, sensor, or ISP models are all useful contributions. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting code.
 
 ### Role in the Physical Toy Camera Project
 
