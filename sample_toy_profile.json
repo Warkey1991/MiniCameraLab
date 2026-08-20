@@ -1,0 +1,43 @@
+{
+  "name": "Toy Digital Starter",
+  "lens": {
+    "enabled": true,
+    "center_sigma": 0.35,
+    "edge_sigma": 2.8,
+    "edge_power": 2.2,
+    "ca_pixels": 1.8,
+    "vignette_strength": 0.28,
+    "vignette_power": 2.4
+  },
+  "sensor": {
+    "enabled": true,
+    "bayer_pattern": "RGGB",
+    "full_well_e": 9000.0,
+    "read_noise_e": 7.0,
+    "row_noise_e": 2.2,
+    "fpn_strength": 0.007,
+    "analog_gain": 1.1,
+    "black_level": 0.018,
+    "bit_depth": 10,
+    "seed": 7,
+    "demosaic_method": "bilinear"
+  },
+  "isp": {
+    "enabled": true,
+    "wb_r": 1.22,
+    "wb_g": 1.0,
+    "wb_b": 1.06,
+    "ccm": [
+      [1.12, -0.08, -0.04],
+      [-0.02, 1.05, -0.03],
+      [-0.05, -0.09, 1.14]
+    ],
+    "exposure_ev": 0.0,
+    "contrast": 1.12,
+    "black_crush": 0.02,
+    "highlight_clip": 0.88,
+    "saturation": 0.9,
+    "sharpen_amount": 0.12,
+    "sharpen_radius": 1.0
+  }
+}

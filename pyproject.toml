@@ -1,0 +1,13 @@
+[project]
+name = "mini-camera-lab"
+version = "1.0.0"
+description = "Interactive physical camera pipeline lab for toy-camera research"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "opencv-python>=4.8",
+  "PySide6>=6.6",
+]
+
+[project.scripts]
+mini-camera-lab-cli = "camera_lab.cli:main"
