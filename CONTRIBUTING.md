@@ -21,7 +21,7 @@
 
 ### 贡献约定
 
-- 不要提交 `.venv`、缓存、编译产物或本地生成的图片；这些内容已由 `.gitignore` 排除。
+- 不要提交 `.venv`、缓存、编译产物或临时生成的图片；README 使用的截图或示例素材请放在 `docs/images/`。
 - 新增成像参数时，请在 `CameraProfile`、GUI 控件、README 参数表和测试中保持同步。
 - 尽量保持现有的物理含义、数据流和可复现 Noise Seed 设计。
 - 提交代码前请确认没有包含密钥、个人路径或其他敏感信息。
@@ -47,7 +47,7 @@ Contributions to Mini Camera Lab are welcome, including bug fixes, tests, docume
 
 ### Contribution guidelines
 
-- Do not commit `.venv`, caches, build artifacts, or locally generated images; they are excluded by `.gitignore`.
+- Do not commit `.venv`, caches, build artifacts, or temporary images; README screenshots and example assets belong in `docs/images/`.
 - When adding an imaging parameter, keep `CameraProfile`, the GUI controls, the README parameter table, and tests in sync.
 - Preserve the existing physical meaning, data flow, and reproducible noise-seed design whenever possible.
 - Check that commits do not contain credentials, personal paths, or other sensitive information.

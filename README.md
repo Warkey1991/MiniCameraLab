@@ -143,6 +143,21 @@ python main.py
 
 为了保证实时交互，GUI 预览会把最长边缩小到最多 1400 px；完整分辨率导出不会使用缩小后的预览，而是重新处理原图。
 
+### 使用效果反馈
+
+下面的总览图来自 Mini Camera Lab GUI 的实际运行截图。同一张照片依次经过 `Linear Scene`、`Bayer CFA`、`Sensor RAW`、`After Demosaic`、`After Tone` 和 `Final sRGB` 阶段，可以直观看到镜头、传感器和 ISP 对画面的影响。
+
+![Mini Camera Lab 六阶段使用效果反馈](docs/images/usage-feedback.jpg)
+
+完整阶段截图：
+
+- [Linear Scene](docs/images/stage-linear-scene.png)
+- [Bayer CFA](docs/images/stage-bayer-cfa.png)
+- [Sensor RAW](docs/images/stage-sensor-raw.png)
+- [After Demosaic](docs/images/stage-after-demosaic.png)
+- [After Tone](docs/images/stage-after-tone.png)
+- [Final sRGB](docs/images/stage-final-srgb.png)
+
 ### 主要参数速查
 
 | 模块 | 参数 | 含义 |
@@ -212,6 +227,15 @@ MiniCameraLab/
 ├── README.md
 ├── LICENSE                          # MIT 开源协议
 ├── CONTRIBUTING.md                  # 贡献指南
+├── docs/
+│   └── images/                      # GUI 阶段截图与效果反馈图
+│       ├── usage-feedback.jpg
+│       ├── stage-linear-scene.png
+│       ├── stage-bayer-cfa.png
+│       ├── stage-sensor-raw.png
+│       ├── stage-after-demosaic.png
+│       ├── stage-after-tone.png
+│       └── stage-final-srgb.png
 ├── camera_lab/
 │   ├── __init__.py                 # 对外导出 CameraProfile / process_image
 │   ├── imaging.py                  # 成像、传感器、Bayer、ISP 基础函数
@@ -405,6 +429,21 @@ python main.py
 
 For responsive interaction, the GUI preview is reduced to a maximum dimension of 1400 px. Full-resolution export reruns the pipeline on the original image rather than on the preview.
 
+### Usage Feedback
+
+The overview below is made from actual Mini Camera Lab GUI screenshots. The same photograph is shown after `Linear Scene`, `Bayer CFA`, `Sensor RAW`, `After Demosaic`, `After Tone`, and `Final sRGB`, making the effect of the lens, sensor, and ISP stages easy to compare.
+
+![Mini Camera Lab six-stage usage feedback](docs/images/usage-feedback.jpg)
+
+Full-size stage screenshots:
+
+- [Linear Scene](docs/images/stage-linear-scene.png)
+- [Bayer CFA](docs/images/stage-bayer-cfa.png)
+- [Sensor RAW](docs/images/stage-sensor-raw.png)
+- [After Demosaic](docs/images/stage-after-demosaic.png)
+- [After Tone](docs/images/stage-after-tone.png)
+- [Final sRGB](docs/images/stage-final-srgb.png)
+
 ### Parameter Quick Reference
 
 | Module | Parameter | Meaning |
@@ -474,6 +513,15 @@ MiniCameraLab/
 ├── README.md
 ├── LICENSE                          # MIT license
 ├── CONTRIBUTING.md                  # Contribution guide
+├── docs/
+│   └── images/                      # GUI stage screenshots and feedback montage
+│       ├── usage-feedback.jpg
+│       ├── stage-linear-scene.png
+│       ├── stage-bayer-cfa.png
+│       ├── stage-sensor-raw.png
+│       ├── stage-after-demosaic.png
+│       ├── stage-after-tone.png
+│       └── stage-final-srgb.png
 ├── camera_lab/
 │   ├── __init__.py                 # Public CameraProfile / process_image exports
 │   ├── imaging.py                  # Imaging, sensor, Bayer, and ISP primitives
